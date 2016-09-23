@@ -17,8 +17,8 @@ public class MyInteger_Test {
 	MyInteger FifthNbr=new MyInteger(6);
 
 
-
-	public void test() {
+	@Test
+	public void test1() {
 		assertTrue(FirstNbr.isEven());
 		assertFalse(SecondNbr.isEven());
 		
